@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(240, 238, 241);
+}
+header h2 { 
+    font-family: "Kiwi Maru", serif;
+    font-weight: 400;
+    padding: 50px;
+}
+
+.container ,.secoes  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+ label {
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: -5px 5px 0px  #dbdade;
+    /* background: rgb(177, 146, 221); */
+}
+
+form {
+    margin: 10px;
+}
+
+
+form input {
+    margin: 6px;
+    border-radius: 10px;
+    border:  1px rgb(204, 203, 203) solid;
+    height: 40px;
+    width: 300px;
+    background-color: #eeeeee;
+    padding: 0 19px;
+}
+
+form button {
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    background-color: rgb(63, 62, 62);
+    color: #fff;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: rgb(131, 130, 131);
+
+} 
+
+ .secoes ul li  {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+hr {
+    margin: 10px;
+    display: flex;
+    height: 5px;
+    width: 388px;
+}
+
+ .secoes button {
+    margin: 0px 1px  0px 188px;
+    padding: 5px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(63, 62, 62);
+    color: #dbdade;
+    cursor: pointer;
+    
+}
+
+.secoes li {
+    cursor: pointer;
+}
+
+.riscado {
+   color: red;
+    text-decoration: line-through; /* Adiciona o efeito de riscar o texto */
+}
+
+
+
